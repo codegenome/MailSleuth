@@ -4,3 +4,8 @@ rvm:
   - 1.9.2
   - 1.9.3
   - ree
+before_script:
+  - cd test/dummy
+  - rake db:migrate
+  - rake db:test:prepare
+  - cd ../..
