@@ -1,3 +1,4 @@
+require 'mail/fields/common/common_address'
 
 class MessageLog < ActiveRecord::Base
 
