@@ -1,5 +1,7 @@
 # MailSleuth
 
+[![Build Status](https://secure.travis-ci.org/codegenome/MailSleuth.png)](http://travis-ci.org/codegenome/MailSleuth)
+
 This gem provides a model and an observer to log e-mail delivery.
 
 ## Installation
