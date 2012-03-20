@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mail_sleuth (0.1.0)
+    mail_sleuth (0.1.1)
       rails (~> 3.2.1)
 
 GEM
