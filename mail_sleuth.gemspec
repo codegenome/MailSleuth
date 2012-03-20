@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = MailSleuth::VERSION
   s.authors     = ["Nicolas Buduroi"]
   s.email       = ["nbuduroi@gmail.com"]
-  s.homepage    = "TBA"
+  s.homepage    = "https://github.com/codegenome/MailSleuth"
   s.summary     = "This plugin provide a configurable observer for ActionMailer."
   s.description = "See README.md file."
 
