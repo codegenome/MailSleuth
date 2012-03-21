@@ -20,8 +20,13 @@ class MessageLog < ActiveRecord::Base
     attributes['delivery_handler'].constantize
   end
 
+  # HACK: bypass the ActiveModel::Errors
+
+  def errors
+    attributes['errors'].unserialize
+  end
+
   class << self
-    # HACK: ignoring AR errors method
     def instance_method_already_implemented?(method_name)
       return true if method_name == 'errors'
       super
