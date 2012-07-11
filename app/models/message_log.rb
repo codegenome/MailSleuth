@@ -23,7 +23,7 @@ class MessageLog < ActiveRecord::Base
   # HACK: bypass the ActiveModel::Errors
 
   def errors
-    attributes['errors'].unserialize
+    attributes['errors']
   end
 
   class << self
